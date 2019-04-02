@@ -32,6 +32,14 @@ a {
 	text-decoration: inherit; /* no underline */
 }
 
+.appointment__button {
+	background-color: $main-color;
+	margin-bottom: 1rem;
+	width: 9rem;
+	font-size: 1rem;
+	padding: 0.5rem 0rem;
+}
+
 .appointment {
 	border: white solid 1px;
 	padding: 0.25rem;
@@ -274,8 +282,13 @@ ul {
 	border-bottom: 1px solid #e5e2e2;
 }
 
-.service--last {
-	border-bottom: none;
+.services__heading {
+	margin-bottom: 0rem;
+}
+
+.member__services {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .service__info {
@@ -286,6 +299,23 @@ ul {
 .services__image {
 	background-image: url('../images/salon-four.png');
 	@include pageImage();
+}
+
+.additional__services {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	@media only screen and (max-width: 885px) {
+		grid-template-columns: 1fr;
+		justify-items: start;
+	}
+}
+
+.additional__heading {
+	text-align: center;
+	@media only screen and (max-width: 885px) {
+		text-align: left;
+	}
 }
 
 // Membership styles
@@ -302,6 +332,7 @@ ul {
 	text-align: center;
 	font-size: 2rem;
 	margin-top: 0;
+	margin-bottom: 1rem;
 	@media only screen and (max-width: 600px) {
 		font-size: 1.5rem;
 	}
@@ -313,6 +344,10 @@ ul {
 	font-size: 1.1rem;
 	p {
 		padding: 0.25rem;
+	}
+	span {
+		font-size: 1.75rem;
+		font-style: italic;
 	}
 }
 
@@ -391,6 +426,18 @@ ul {
 	}
 }
 
+.bar {
+	background: black;
+	height: 2px;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 2.5rem;
+}
+
+.about__text {
+	margin-top: 0;
+}
+
 // Footer styles
 footer {
 	background-color: #e5e2e2;
@@ -450,17 +497,6 @@ footer {
 		font-size: 1.75rem;
 		margin-top: 0;
 	}
-	img {
-		width: 7rem;
-		margin: 0 auto;
-	}
-	button {
-		width: 10rem;
-		padding: 1rem;
-		margin: 1rem auto;
-		color: #eb6663;
-		font-size: 1.25rem;
-	}
 	@media only screen and (max-width: 600px) {
 		h1 {
 			font-size: 2.75rem;
@@ -474,4 +510,20 @@ footer {
 .giftcard__image {
 	background-image: url('../images/salon-ten.png');
 	@include pageImage();
+}
+
+.vagaro {
+	display: flex;
+	flex-direction: column;
+}
+.vagaro_img {
+	width: 7rem;
+	margin: 0 auto;
+}
+.vagaro_button {
+	width: 10rem;
+	padding: 1rem;
+	margin: 1rem auto;
+	color: #eb6663;
+	font-size: 1.25rem;
 }
