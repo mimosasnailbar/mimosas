@@ -30,7 +30,19 @@ const image = new Vue({
 		}
 	}
 });
-35.240544;
+
+//Appointment button scrolling
+const mainButton = document.querySelector('#mainButton');
+const appButtons = document.querySelectorAll('.appointment__button');
+
+appButtons.forEach(function(button) {
+	button.addEventListener('click', function() {
+		mainButton.scrollIntoView(true);
+		window.scrollBy(0, -45);
+	});
+});
+
+// Google Maps Functionality
 function initMap() {
 	// The location of Uluru
 	var uluru = { lat: 35.240544, lng: -80.813173 };

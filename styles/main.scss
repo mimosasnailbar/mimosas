@@ -8,6 +8,7 @@
 
 //Variables
 $main-color: #b0d9ef;
+$secondary-color: #eb6663;
 
 html {
 	box-sizing: border-box;
@@ -33,11 +34,15 @@ a {
 }
 
 .appointment__button {
-	background-color: $main-color;
+	//background-color: $main-color;
+	background: none;
+	color: $main-color;
+	border: none;
 	margin-bottom: 1rem;
-	width: 9rem;
+	//width: 9rem;
 	font-size: 1rem;
-	padding: 0.5rem 0rem;
+	//padding: 0.5rem 0rem;
+	padding: 0;
 }
 
 .appointment {
@@ -48,7 +53,8 @@ a {
 	margin-left: 0.5rem;
 	&:hover {
 		transform: scale(1.05);
-		//color: #000000;
+		color: $secondary-color;
+		border: $secondary-color solid 1px;
 	}
 	@media only screen and (max-width: 650px) {
 		margin-left: 1rem;
@@ -234,7 +240,7 @@ ul {
 			padding: 0.5rem;
 		}
 		a:hover {
-			color: $main-color;
+			color: $secondary-color;
 			cursor: pointer;
 		}
 	}
@@ -244,7 +250,7 @@ ul {
 			font-size: 1.75rem;
 		}
 		@media only screen and (max-width: 600px) {
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 			font-weight: bold;
 		}
 	}
@@ -254,7 +260,7 @@ ul {
 		height: 375px;
 		width: 100%;
 		@media only screen and (max-width: 600px) {
-			height: 185px;
+			height: 200px;
 		}
 	}
 	.home__images {
@@ -520,10 +526,33 @@ footer {
 	width: 7rem;
 	margin: 0 auto;
 }
+.vagaro_img-mem {
+	width: 2.5rem;
+	margin-right: 0.5rem;
+}
 .vagaro_button {
-	width: 10rem;
-	padding: 1rem;
+	// width: 10rem;
+	// padding: 1rem;
 	margin: 1rem auto;
-	color: #eb6663;
-	font-size: 1.25rem;
+	// color: #eb6663;
+	// font-size: 1.25rem;
+	width: 13rem;
+	padding: 0.5rem 1rem;
+	//margin: 1rem 0rem;
+	background-color: $secondary-color;
+	color: #ffffff;
+	font-size: 1.15rem;
+}
+.member__button--container {
+	display: flex;
+	align-items: center;
+}
+.member_button {
+	width: 13rem;
+	padding: 0.5rem 1rem;
+	margin: 1rem 0rem;
+	background-color: $secondary-color;
+	color: #ffffff;
+	font-size: 1.15rem;
+	justify-self: start;
 }
