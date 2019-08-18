@@ -4,7 +4,7 @@
 ---
 
 //Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700');
 
 //Variables
 $main-color: #b0d9ef;
@@ -31,6 +31,17 @@ body {
 a {
 	color: inherit; /* blue colors for links too */
 	text-decoration: inherit; /* no underline */
+	cursor: pointer;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+button {
+	cursor: pointer;
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 .appointment__button {
@@ -287,7 +298,9 @@ ul {
 .service {
 	border-bottom: 1px solid #e5e2e2;
 }
-
+.service__name {
+	font-weight: 600;
+}
 .services__heading {
 	margin-bottom: 0rem;
 }
@@ -295,6 +308,11 @@ ul {
 .member__services {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+.service__member--title {
+	font-weight: 600;
 }
 
 .service__info {
@@ -311,6 +329,7 @@ ul {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	justify-items: center;
+	border-bottom: 1px solid #e5e2e2;
 	@media only screen and (max-width: 885px) {
 		grid-template-columns: 1fr;
 		justify-items: start;
@@ -365,6 +384,11 @@ ul {
 .membership__image {
 	background-image: url('../images/salon-seven.png');
 	@include pageImage();
+}
+
+.vagaro__member {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
 }
 
 //About Us Section
@@ -448,7 +472,7 @@ ul {
 footer {
 	background-color: #e5e2e2;
 	width: 100%;
-	margin-top: 1rem;
+	margin-top: 4rem;
 	.footer__content {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -494,6 +518,7 @@ footer {
 //Gift Card Styles
 .giftcard {
 	text-align: center;
+	padding-bottom: 1rem;
 	h1 {
 		font-size: 3.5rem;
 		margin-bottom: 0rem;
@@ -555,4 +580,7 @@ footer {
 	color: #ffffff;
 	font-size: 1.15rem;
 	justify-self: start;
+}
+.book__button {
+	width: 15rem;
 }
