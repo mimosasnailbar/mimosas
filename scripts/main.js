@@ -3,6 +3,7 @@ const imageShow = document.querySelector('.home__image');
 const mobileMenu = document.querySelector('.mobile__menu');
 const mobileNav = document.querySelector('.mobile__nav');
 const appButton = document.querySelector('.appointment');
+const mainImage = document.querySelector('.home-images').src;
 
 //Vue JS Code
 const nav = new Vue({
@@ -22,7 +23,7 @@ const nav = new Vue({
 const image = new Vue({
 	el: '#imageToggle',
 	data: {
-		src: '../images/salon-three.png'
+		src: mainImage
 	},
 	methods: {
 		toggle: function() {
