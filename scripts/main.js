@@ -19,18 +19,6 @@ const nav = new Vue({
 	}
 });
 
-const image = new Vue({
-	el: '#imageToggle',
-	data: {
-		src: mainImage
-	},
-	methods: {
-		toggle: function() {
-			this.src = event.target.src;
-		}
-	}
-});
-
 //Appointment button scrolling
 const mainButton = document.querySelector('#mainButton');
 const appButtons = document.querySelectorAll('.appointment__button');
