@@ -1,2 +1,22 @@
+---
+layout: default
+---
 <section class="wrapper home__main">
-    <div id="imageToggle"><div class="home__image" style="background-image: url(&quot;undefined&quot;);"><div class="home__buttons"><a href="https://www.vagaro.com/mimosasnailbar/book-now" target="_blank"><span data-cms-index="0" data-cms-source="/index.html" class="editable">BOOK APPOINTMENT</span></a></div></div> <div class="home__images"><figure><img data-cms-index="1" data-cms-original-src="/images/salon-four.png" data-cms-source="/index.html" src="/images/salon-four.png?_cchid=7e9fc1886c0d221d9a643fdd3bd943ce" width="1920" class="editable home-images"></figure> <figure><img data-cms-index="2" data-cms-original-src="/images/salon-ten.png" data-cms-source="/index.html" src="/images/salon-ten.png?_cchid=8189f6345ec0245e8d07c7ae9c09789e" class="editable home-images"></figure> <figure><img data-cms-index="3" data-cms-original-src="./images/salon-two.png" data-cms-source="/index.html" src="/images/salon-two.png?_cchid=ec9dfc1f57e39248c0eaf43288457827" class="editable home-images"></figure> <figure><img data-cms-index="4" data-cms-original-src="./images/salon-seven.png" data-cms-source="/index.html" src="/images/salon-seven.png?_cchid=b577676d29475f331e3882effa8de2c3" class="editable home-images"></figure> <figure><img data-cms-index="5" data-cms-original-src="/uploads/blonde-hair-brick-wall-close-up-9756682x-1.jpg" data-cms-source="/index.html" src="/uploads/blonde-hair-brick-wall-close-up-9756682x-1.jpg?_cchid=3ba8169b78120295ae4569031c731f8c" width="1920" class="editable home-images"></figure> <figure><img data-cms-index="6" data-cms-original-src="/uploads/female-hand-manicured-nails-2084303.jpg" data-cms-source="/index.html" src="/uploads/female-hand-manicured-nails-2084303.jpg?_cchid=41cbbf0d2c0740ae463b0b46d0b20a47" class="editable home-images"></figure> <div class="award-winners"><div class="outer"><div class="center"><img alt="QC" data-cms-original-src="/images/qc.jpeg?_cchid=91dfc267e6285916944ceee77f40349e" height="200" src="/images/qc.jpeg?_cchid=91dfc267e6285916944ceee77f40349e&amp;_cchid=91dfc267e6285916944ceee77f40349e" width="200"></div> <div class="right"><img alt="Observer" data-cms-original-src="/images/Observer.jpeg?_cchid=cc5c2687316598a0ac7314bae1a2b140" height="200" src="/images/Observer.jpeg?_cchid=cc5c2687316598a0ac7314bae1a2b140&amp;_cchid=cc5c2687316598a0ac7314bae1a2b140" width="200"></div></div></div></div></div></section>
+    <div id="imageToggle">
+        <div class="home__image" v-bind:style="{ backgroundImage: `url('${src}')` }">
+            <div class="home__buttons">
+                <a target="_blank" href="https://www.vagaro.com/mimosasnailbar/book-now"><span class="editable">BOOK APPOINTMENT</span></a>
+            </div>
+        </div>
+        <div class="home__images" v-on:click="toggle">
+            <figure><img width="1920" src="/images/salon-four.png" class="editable home-images" /></figure>
+            <figure><img class="editable home-images" src="/images/salon-ten.png" /></figure>
+            <figure><img class="editable home-images" src="./images/salon-two.png" /></figure>
+            <figure><img class="editable home-images" src="./images/salon-seven.png" /></figure>
+            <figure><img class="editable home-images" src="/uploads/blonde-hair-brick-wall-close-up-9756682x-1.jpg" width="1920" /></figure>
+            <figure><img src="/uploads/female-hand-manicured-nails-2084303.jpg" class="editable home-images" /></figure>
+       <div class="award-winners"><div class="outer"><div class="center"><img alt="QC" data-cms-original-src="/images/qc.jpeg" height="200" src="/images/qc.jpeg?_cchid=91dfc267e6285916944ceee77f40349e" width="200"></div> <div class="right"><img alt="Observer" data-cms-original-src="/images/Observer.jpeg" height="200" src="/images/Observer.jpeg?_cchid=cc5c2687316598a0ac7314bae1a2b140" width="200"></div></div></div></section>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="./scripts/image.js"></script>
+
+
