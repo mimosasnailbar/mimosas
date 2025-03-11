@@ -1,101 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Meta -->
-		<meta charset="UTF-8" />
-		<title>Mimosas Nails</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!-- Styles -->
-		<link rel="stylesheet" href="{{ 'styles/main.css' | relative_url }}" />
-		<link rel="icon" href="../images/mnbar.png" />
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
-	</head>
-	<body>
-		<header>
-			<nav id="nav">
-				<div class="mobile__menu" v-on:click="openNav" v-bind:class="{ change: isChanged }">
-					<div class="bar1"></div>
-					<div class="bar2"></div>
-					<div class="bar3"></div>
-				</div>
-				<ul class="mobile__nav" v-bind:class="[showNav ? 'show' : '']">
-					<a class="editable" href="index.html">
-	<li>HOME</li>
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8" />
+        <title>Mimosas Nails</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{ 'styles/main.css' | relative_url }}" />
+        <link rel="icon" href="../images/mnbar.png" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+    </head>
+    <body>
+        <header>
+            <nav id="nav">
+                <div class="mobile__menu" v-on:click="openNav" v-bind:class="{ change: isChanged }">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <ul class="mobile__nav" v-bind:class="[showNav ? 'show' : '']">
+                    <a class="editable" href="index.html">
+    <li>HOME</li>
 </a>
-					<a class="editable" href="services.html"> <li>SERVICES</li> </a>
-					<a class="editable" href="giftcard.html"><li>GIFT CARD</li></a>
-					<a class="editable" href="about.html"><li>ABOUT US</li></a>
-					<a class="editable" href="contact.html"><li>CONTACT US</li></a>
-					<a class="editable appointment" target="_blank" href="https://www.vagaro.com/OnlineChooseBusiness.aspx?enc=FeWMMfY+7xoz0VTrhiAKp1We0HsZXRFa/Mt6arUeZhGJsRUJfVMQCrpZXMOihCCNmm50w+ajCaNqyFtO4IbG0Ajq+xamDo3gg7FMkFVJNnaxYM7FfVJ095CduIA6JJxUhBBjqzhhe6W6oMOvXcpkUt068w1526t/gE9h1F2qegAi1ELU5lc9NptNJfmO/rlOi7O1Cz+0WXr/TEfOL03lgEhz2PrWVeE2t/P8vs0JW7HQfTpeRxloU+bCTiBq5XSULm7odf0iOGpkOrmVtHC7gaJdoTLkDyKAMq5hymg5LJxCtIMk8G981rzIUQ/GfJBwrLkhciHDzVT8zrf5PDdCJUh+452/af03iCKRVTO5Xwpf4t3aF09LfpIEWhyro3fjxTgrj8rvOABNoaaMm+R/NzxkIIYJ6wH6s7wysWKWTnvEFWdsr+e1s391hBsaQ6hWlySPUHmtrlq05gp6Pk7IzoknTgUS/MtBXVh7227I/+RY8/ZGom8Jn5Vrpex5PMC7PG8RJiGwGSTbDzXOyYvV5Z9NMR93rxwNyqNImqewePGZ60Of34vmelXtqF0q2QArWfhfFPArRU05gjAIQR7TPZf/1z1wwAKu2P/nKRjc5Fooj/ZxNWq1GTogxCnfnUHnei91alcXjeRvRY+cLh8lg8R4jW0l7kgjP06/OpCk/Y2EG70oNSi6kqBiJjJoFwltJV5riZ0qPJkulFxNT4PXSVf2U1f4wyn/Bj+9TPLxMCncbln8TC52NRN8wrvME4IpLLBGyQbyEsT0aF0eEOUjFyElufKRerA1sDkrpmUGewB79lf53SqKqs1FWXMXJ0SxvS3pMIbHJD+xTFU9QhfkuXDnFc7+7M1PGpMeuKAg60UZ/Xgsie9fIFdok1j1m0Nx/yWhUYFmT3lasy131zW0hg==">
-	<li>APPOINTMENT</li>
+                    <a class="editable" href="services.html"> <li>SERVICES</li> </a>
+                    <a class="editable" href="giftcard.html"><li>GIFT CARD</li></a>
+                    <a class="editable" href="about.html"><li>ABOUT US</li></a>
+                    <a class="editable" href="contact.html"><li>CONTACT US</li></a>
+                    <a class="editable appointment" target="_blank" href="https://www.vagaro.com/OnlineChooseBusiness.aspx?enc=FeWMMfY+7xoz0VTrhiAKp1We0HsZXRFa/Mt6arUeZhGJsRUJfVMQCrpZXMOihCCNmm50w+ajCaNqyFtO4IbG0Ajq+xamDo3gg7FMkFVJNnaxYM7FfVJ095CduIA6JJxUhBBjqzhhe6W6oMOvXcpkUt068w1526t/gE9h1F2qegAi1ELU5lc9NptNJfmO/rlOi7O1Cz+0WXr/TEfOL03lgEhz2PrWVeE2t/P8vs0JW7HQfTpeRxloU+bCTiBq5XSULm7odf0iOGpkOrmVtHC7gaJdoTLkDyKAMq5hymg5LJxCtIMk8G981rzIUQ/GfJBwrLkhciHDzVT8zrf5PDdCJUh+452/af03iCKRVTO5Xwpf4t3aF09LfpIEWhyro3fjxTgrj8rvOABNoaaMm+R/NzxkIIYJ6wH6s7wysWKWTnvEFWdsr+e1s391hBsaQ6hWlySPUHmtrlq05gp6Pk7IzoknTgUS/MtBXVh7227I/+RY8/ZGom8Jn5Vrpex5PMC7PG8RJiGwGSTbDzXOyYvV5Z9NMR93rxwNyqNImqewePGZ60Of34vmelXtqF0q2QArWfhfFPArRU05gjAIQR7TPZf/1z1wwAKu2P/nKRjc5Fooj/ZxNWq1GTogxCnfnUHnei91alcXjeRvRY+cLh8lg8R4jW0l7kgjP06/OpCk/Y2EG70oNSi6kqBiJjJoFwltJV5riZ0qPJkulFxNT4PXSVf2U1f4wyn/Bj+9TPLxMCncbln8TC52NRN8wrvME4IpLLBGyQbyEsT0aF0eEOUjFyElufKRerA1sDkrpmUGewB79lf53SqKqs1FWXMXJ0SxvS3pMIbHJD+xTFU9QhfkuXDnFc7+7M1PGpMeuKAg60UZ/Xgsie9fIFdok1j1m0Nx/yWhUYFmT3lasy131zW0hg==">
+    <li>APPOINTMENT</li>
 </a>
-				</ul>
-			</nav>
-			<div class="header__image">
-				<img class="editable" src="./images/mnbar.png" />
-			</div>
-		</header>
-		{{ content }}
-		<footer>
-			<div class="wrapper-two footer__content">
-				<div>
-					<p class="footer__title editable">
-						LOCATION &amp; CONTACT<br />
-					</p>
-					<a href="https://maps.google.com/?q=2320 North Davidson Street Suite 2, Charlotte, NC 28205" class="editable footer__address">
-						<p>
-							<i class="fas fa-map-pin"></i>&nbsp;2320 North Davidson Street Suite
-							2<br />&nbsp; &nbsp;Charlotte, NC 28205
-						</p> 
-					</a>
-					<a href="tel:980-819-9243" class="editable">
-						<i class="fas fa-phone"></i>&nbsp;980.819.9243<br />
-						<p>Mimosas Nail Bar ( Opening Soon).</p>
-					</a>
-										<a href="https://maps.google.com/?q=2320 North Davidson Street Suite 2, Charlotte, NC 28205" class="editable footer__address">
-											<p>
-												<i class="fas fa-map-pin"></i>&nbsp;1111 Metropolitan Ave Suite 100
-											<br />&nbsp; &nbsp;Charlotte, NC 28204
-											</p>
-										</a>
-					<a href="tel:9802071091" class="editable">
-						<i class="fas fa-phone"></i>&nbsp;980.207.1091<br />
-					</a>
-					<p class="editable">
-						<i class="fas fa-envelope"></i> ktran1021@yahoo.com<br />
-						
-				</p></div>
-				<div class="footer__hours">
-					<p class="footer__title editable">
-						HOURS
-					</p>
-					<p class="editable">
-						Mon- Sat 9:30am - 7:30pm
-					</p>
-					<p class="editable">
-						Sun 11:00am - 6:00pm
-					</p>
-					<p class="editable"></p>
-				</div>
-				<div class="footer__social">
-					<p></p>
-						<a class="editable" href="https://www.instagram.com/mimosasnailbarcharlotte/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">
-							<i class="fab fa-instagram"></i>
-						</a>
-						<a class="editable" href="https://facebook.com/mimosasnailbar" target="_blank">
-							<i class="fab fa-facebook"></i>
-						</a>
-					<p></p>
-					<p class="editable">
-						Awarded Best Nail Salon by the Charlotte Observer, QC Nerve, and Charlotte Magazine
-					</p>
-				</div>
-			</div>
-		</footer>
-		<!-- Scripts -->
-		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-		<script src="./scripts/main.js"></script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnxLLTFVO0YzV4sBscsnegjvo4s0qYuUM&callback=initMap" type="text/javascript"></script>
-	</body>
+                </ul>
+            </nav>
+            <div class="header__image">
+                <img class="editable" src="./images/mnbar.png" />
+            </div>
+        </header>
+        {{ content }}
+        <footer>
+            <div class="wrapper-two footer__content">
+                <div>
+                    <p class="footer__title editable">
+                        LOCATION &amp; CONTACT<br />
+                    </p>
+                    <a href="https://maps.google.com/?q=2320 North Davidson Street Suite 2, Charlotte, NC 28205" class="editable footer__address">
+                        <p>
+                            <i class="fas fa-map-pin"></i>&nbsp;2320 North Davidson Street Suite
+                            2<br />&nbsp; &nbsp;Charlotte, NC 28205
+                        </p> 
+                    </a>
+                    <a href="tel:980-819-9243" class="editable">
+                        <i class="fas fa-phone"></i>&nbsp;980.819.9243<br />
+                        <p>Mimosas Nail Bar ( Opening Soon).</p>
+                    </a>
+                                        <a href="https://maps.google.com/?q=2320 North Davidson Street Suite 2, Charlotte, NC 28205" class="editable footer__address">
+                                            <p>
+                                                <i class="fas fa-map-pin"></i>&nbsp;1111 Metropolitan Ave Suite 100
+                                            <br />&nbsp; &nbsp;Charlotte, NC 28204
+                                            </p>
+                                        </a>
+                    <a href="tel:9802071091" class="editable">
+                        <i class="fas fa-phone"></i>&nbsp;980.207.1091<br />
+                    </a>
+ <a href="https://maps.app.goo.gl/vnmV29q6gdRhaoeEA" class="editable footer__address">
+                                            <p>
+                                                <i class="fas fa-map-pin"></i>&nbsp;9695 Red Stone Dr Suite 400
+                                            <br />&nbsp; &nbsp;Indian Land, SC 29707
+                                            </p>
+                                        </a>
+                    <a href="tel:8035484468" class="editable">
+                        <i class="fas fa-phone"></i>&nbsp;(803) 548-4468<br />
+                    </a>
+
+
+                    <p class="editable">
+                        <i class="fas fa-envelope"></i> ktran1021@yahoo.com<br />
+                        
+                </p></div>
+                <div class="footer__hours">
+                    <p class="footer__title editable">
+                        HOURS
+                    </p>
+                    <p class="editable">
+                        Mon- Sat 9:30am - 7:30pm
+                    </p>
+                    <p class="editable">
+                        Sun 11:00am - 6:00pm
+                    </p>
+                    <p class="editable"></p>
+                </div>
+                <div class="footer__social">
+                    <p></p>
+                        <a class="editable" href="https://www.instagram.com/mimosasnailbarcharlotte/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="editable" href="https://facebook.com/mimosasnailbar" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    <p></p>
+                    <p class="editable">
+                        Awarded Best Nail Salon by the Charlotte Observer, QC Nerve, and Charlotte Magazine
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+        <script src="./scripts/main.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnxLLTFVO0YzV4sBscsnegjvo4s0qYuUM&callback=initMap" type="text/javascript"></script>
+    </body>
 </html>
