@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<section class="wrapper home__main">
+    <div id="imageToggle">
+        <div class="home__image" v-bind:style="{ backgroundImage: `url('${src}')` }">
+            <div class="home__buttons">
+                <a target="_blank" href="https://www.vagaro.com/OnlineChooseBusiness.aspx?enc=FeWMMfY+7xoz0VTrhiAKp1We0HsZXRFa/Mt6arUeZhEiFJGZjnsFYONW6vyI8sgEQpUUDmpHhjtEtZGWFh2E3uC4KC7l/MYCEBfPREDeCxVnA+IJlHxtsTagtsNq1b0oE4WXYDVV+hJIjR8hNsW2i2TwtvKhPur1BcearakP+fzSYRU+XIhHY5v3kIUXSKlgnu7GMIZ4xYLYb/KcZHtKS6Wbt4hQc0hy2xFAm3KV/jcMk4p+lLhmbkWXFWw2B8iVgJcT9zWeAbaSeJH7rFxj9ob4EHr2tEtBtFkQnfX9r5St3c67ZtRd025Mr0YhUEG4jwE68nA5IQ/eT1WTvgWSFuBsljsiyA83jzZvM50aphP3tfRgQQLMPDrrs8He1vo0xc4bQQQjStlyCAc+gMvVR3bE0R50lGeySaCtDDsk/kmmkbUik42Q/C7R2dHXj5kQZaO/m8WEMZ/7+XS7Vt9o7zTyl92z7IfcO8kXTo51twbhXGxftU2qnFYAUKRpMNydeMC+hxpw4gHX2lcn3STKOoPh/9Smsd7ZmWajVExsu6O/d2ydzhIV+jteLmcGwbn2g5viSB7DeZXPjVrgVWHzNKkmpx7AH0lXmDbrTn41GNFXOSxPF1hR7j0dgxj5XVCA8Ps2dG6iGt6+VI7IO9mv6uNdu10qaI5q5WuxdWHNc6f4XTzpaBNLq1SL8lXh4z36+LyPQtmrVRCyPcqwkSR7vSEa1TbiEC4L7ue5GICghiK1cG0tP7PS1KxmiBUhl/RKHC/guHlgtuD678i1mgbv8fV6GYjacuaYRpbNECay9P1ed1fhqhqN8dcSbUvPrzNy"><span class="editable">
+    BOOK APPOINTMENT
+</span></a>
+            </div>
+        </div>
+        <div class="home__images" v-on:click="toggle">
+            <figure><img width="1920" src="/images/salon-four.png" class="editable home-images" /></figure>
+            <figure><img class="editable home-images" src="/images/salon-ten.png" /></figure>
+            <figure><img class="editable home-images" src="./images/salon-two.png" /></figure>
+            <figure><img class="editable home-images" src="./images/salon-seven.png" /></figure>
+            <figure><img class="editable home-images" src="/uploads/blonde-hair-brick-wall-close-up-9756682x-1.jpg" width="1920" /></figure>
+            <figure><img src="/uploads/female-hand-manicured-nails-2084303.jpg" class="editable home-images" /></figure>
+       <div class="award-winners"><div class="outer"><div class="center"><img alt="QC" src="/images/qc.jpeg" height="200" width="200" /></div> <div class="right"><img alt="Observer" src="/images/Observer.jpeg" height="200" width="200" /></div></div></div></div></div></section>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="./scripts/image.js"></script>
+
+
+---
+title: My page
+layout: default
+---
