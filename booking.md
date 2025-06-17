@@ -10,6 +10,7 @@ layout: default
     <a href="https://example.com/booking2" class="btn-booking" target="_blank">Booking 2</a>
     <a href="https://example.com/booking3" class="btn-booking" target="_blank">Booking 3</a>
   </div>
+           </div>
   <style>
     body {
       font-family: Arial, sans-serif;
