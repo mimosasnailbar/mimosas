@@ -5,24 +5,67 @@ layout: default
     <div id="imageToggle">
         <div class="home__image" v-bind:style="{ backgroundImage: `url('${src}')` }">
             <div class="home__buttons">
-                <a target="_blank" href="https://www.vagaro.com/OnlineChooseBusiness.aspx?enc=FeWMMfY+7xoz0VTrhiAKp1We0HsZXRFa/Mt6arUeZhEiFJGZjnsFYONW6vyI8sgEQpUUDmpHhjtEtZGWFh2E3uC4KC7l/MYCEBfPREDeCxVnA+IJlHxtsTagtsNq1b0oE4WXYDVV+hJIjR8hNsW2i2TwtvKhPur1BcearakP+fzSYRU+XIhHY5v3kIUXSKlgnu7GMIZ4xYLYb/KcZHtKS6Wbt4hQc0hy2xFAm3KV/jcMk4p+lLhmbkWXFWw2B8iVgJcT9zWeAbaSeJH7rFxj9ob4EHr2tEtBtFkQnfX9r5St3c67ZtRd025Mr0YhUEG4jwE68nA5IQ/eT1WTvgWSFuBsljsiyA83jzZvM50aphP3tfRgQQLMPDrrs8He1vo0xc4bQQQjStlyCAc+gMvVR3bE0R50lGeySaCtDDsk/kmmkbUik42Q/C7R2dHXj5kQZaO/m8WEMZ/7+XS7Vt9o7zTyl92z7IfcO8kXTo51twbhXGxftU2qnFYAUKRpMNydeMC+hxpw4gHX2lcn3STKOoPh/9Smsd7ZmWajVExsu6O/d2ydzhIV+jteLmcGwbn2g5viSB7DeZXPjVrgVWHzNKkmpx7AH0lXmDbrTn41GNFXOSxPF1hR7j0dgxj5XVCA8Ps2dG6iGt6+VI7IO9mv6uNdu10qaI5q5WuxdWHNc6f4XTzpaBNLq1SL8lXh4z36+LyPQtmrVRCyPcqwkSR7vSEa1TbiEC4L7ue5GICghiK1cG0tP7PS1KxmiBUhl/RKHC/guHlgtuD678i1mgbv8fV6GYjacuaYRpbNECay9P1ed1fhqhqN8dcSbUvPrzNy"><span class="editable">
-    BOOK APPOINTMENT
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking Options</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background: #f7f7f7;
+    }
+
+    .booking-buttons {
+      text-align: center;
+    }
+
+    .booking-buttons h1 {
+      color: #a45f95;
+      margin-bottom: 30px;
+    }
+
+    .btn-booking {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      background-color: #a45f95;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-booking:hover {
+      background-color: #8e4c7a;
+    }
+
+    @media screen and (max-width: 600px) {
+      .btn-booking {
+        width: 80%;
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="booking-buttons">
+    <h1>Choose Your Booking</h1>
+    <a href="https://liamnailspa2kevinelifenailspa6100.simplepos.us/" class="btn-booking" target="_blank">Booking 1</a>
+    <a href="https://example.com/booking2" class="btn-booking" target="_blank">Booking 2</a>
+    <a href="https://example.com/booking3" class="btn-booking" target="_blank">Booking 3</a>
+  </div>
+
+</body>
+</html>
+
 </span></a>
-            </div>
-        </div>
-        <div class="home__images" v-on:click="toggle">
-            <figure><img width="1920" src="/images/salon-four.png" class="editable home-images" /></figure>
-            <figure><img class="editable home-images" src="/images/salon-ten.png" /></figure>
-            <figure><img class="editable home-images" src="./images/salon-two.png" /></figure>
-            <figure><img class="editable home-images" src="./images/salon-seven.png" /></figure>
-            <figure><img class="editable home-images" src="/uploads/blonde-hair-brick-wall-close-up-9756682x-1.jpg" width="1920" /></figure>
-            <figure><img src="/uploads/female-hand-manicured-nails-2084303.jpg" class="editable home-images" /></figure>
-       <div class="award-winners"><div class="outer"><div class="center"><img alt="QC" src="/images/qc.jpeg" height="200" width="200" /></div> <div class="right"><img alt="Observer" src="/images/Observer.jpeg" height="200" width="200" /></div></div></div></div></div></section>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-<script src="./scripts/image.js"></script>
 
-
----
-title: Booking
-layout: default
----
