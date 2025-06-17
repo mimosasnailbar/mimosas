@@ -23,6 +23,6 @@ layout: default
 
 
 ---
-title: My page
+title: Booking
 layout: default
 ---
