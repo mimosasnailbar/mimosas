@@ -11,6 +11,7 @@ layout: default
     <a href="https://example.com/booking3" class="btn-booking" target="_blank">Booking 3</a>
           </div>
            </div></div>
+</section>
   <style>
     body {
       font-family: Arial, sans-serif;
