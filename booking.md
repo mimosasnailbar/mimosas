@@ -5,12 +5,11 @@ layout: default
     <div id="imageToggle">
         <div class="home__image" v-bind:style="{ backgroundImage: `url('${src}')` }">
             <div class="home__buttons">
-                <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Booking Options</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <h1>Choose Your Booking</h1>
+    <a href="https://liamnailspa2kevinelifenailspa6100.simplepos.us/" class="btn-booking" target="_blank">Booking 1</a>
+    <a href="https://example.com/booking2" class="btn-booking" target="_blank">Booking 2</a>
+    <a href="https://example.com/booking3" class="btn-booking" target="_blank">Booking 3</a>
+  </div>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -54,18 +53,9 @@ layout: default
       }
     }
   </style>
-</head>
-<body>
 
-  <div class="booking-buttons">
-    <h1>Choose Your Booking</h1>
-    <a href="https://liamnailspa2kevinelifenailspa6100.simplepos.us/" class="btn-booking" target="_blank">Booking 1</a>
-    <a href="https://example.com/booking2" class="btn-booking" target="_blank">Booking 2</a>
-    <a href="https://example.com/booking3" class="btn-booking" target="_blank">Booking 3</a>
-  </div>
 
-</body>
-</html>
 
-</span></a>
+
+
 
