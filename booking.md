@@ -1,0 +1,4 @@
+---
+title: Booking
+layout: default
+---
