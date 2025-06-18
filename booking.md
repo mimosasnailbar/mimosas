@@ -5,6 +5,7 @@ layout: default
     <div id="imageToggle">
         <div class="home__image" v-bind:style="{ backgroundImage: `url('${src}')` }">
             <div class="home__buttons">
+                <h2>Book Here</h2>
                 <a href="https://www.vagaro.com/us03/Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVDKVnYttPpV1m24MJd/J2mRFj0anpan9j2xvfOeERVMW2y5KdYPITZsStXslMepwvCcQW+N+knfAEQhdrNOO2mtYMOrR8ff1WsDOUcoqJ5aXAmk8FhWhNwcQmF4ueUWZwM3Xy5bitXVn2PvTHLNBZ8YK7dlGQFvogbfRjwT1+zCtOZ0VrlZJcjy9BXtCeE+A+7EZyuFmLbwLbDMJ3J9PLPQwQw8Jtbv2O/S1IB8mjG1n9ZqgZEtlmq30XPoBi0FnR8oqtKoJpPzoAysMCHHTlVTxpimtLogkfZrT2V1fx7waVqpxhnwtd2yHZcKUyrnvfPHSbZjzAT1Gp53e+aB775o1b3AvTrtZt2ZL3fN4PgxmGk/H4Ytrwk/DuQDGVv8bmbBAMQwUxyRzfhyzedwgftNkbSINUh79dTJeD3S+kFHElTSytGAAOJOAGdEp+G419f+wbBjtYX7PcBsocQCN9eZkpGssKvc0Js4inipfINBleJLbxUEmgJK45uF2UiViyhFg/D3PWSkNPcPJWhdxxYJGPWSGWsa9G2k5nTCwYE1gzxngIHyPTMmMeHQoYn1fNkjtdZArDzZJt2hVSk/XxELC+ajdUz6hKTr4DieZJZh1ldnbWbQbQxOHmXOXeornXOdF16TdtG9+NvbIm6qa8TsY+CIb6Xr8OeVY81kCfk7H+Q+BRN656dCZbTSnqLlGUN8PoFSUsW6YBwq32f0Ajz8=" class="btn-booking" target="_blank">Mimosas Nail Bar
 2320 North Davidson Street, 2, Charlotte, NC, 28205</a></div><br>
                <div class="home__buttons">
