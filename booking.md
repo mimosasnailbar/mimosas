@@ -20,10 +20,8 @@ layout: default
         </div>
     </div>
 </section>
-<style>
-    @media only screen and (max-width: 600px) {
+<style>@media only screen and (max-width: 600px) {
     .home__main .home__image {
-        height: 100%;
+        height: 220px;
     }
-}</style>
-
+</style>
