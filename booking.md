@@ -16,7 +16,7 @@ layout: default
            <div class="home__buttons">
     <a href="https://www.vagaro.com/us03/Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVHP7zqARkunvz4MglgCxenm1zPLJsvrHU4NOh84sDpwvveNK2UqCnR97tRRsOfgQVOK1SSSaUy5ROfpQp4ynHKJrOKi7I+LgHT/vJsMwVqL/8Qj9n7DpA1oZM6GLdtWai56ZsgTcBFX2E/HmFBp2NhdUwbKCIsTvUrSc+M5fqWjALX6OSFqLmKYwABbKzNar7XLTC3DJpkZ8u0FrsDPk76LG623fyYdPapZm3zbVB98JUIiMzpzSh423SRyMsSLNtAwJfO20xNxpN55PbkAkNgE0b5IbMjVpmwhYSe5Q/oWg9TlwcIsSf9poR7wKwZ+KWVAtpOsdqLZxYTX5Ru2Mg0cpGheJKPNOXs/tGyYQZTVV/z0zem56BU+w1mLwqhPv21EulubFN7JAYSCwtopWS6bEiu+0PrxFqaEjhPbbJvXlj7nobr388Hwc3MPemnoz/VnzA6E47uHIR8a6r1Vsgbi8s1h5g1i45Np+hIADmdEdA0nJQATGAF93TdbhjBDKL4bXGtDF7NZ/E5cn/ab9V+PkNoF/He/8YJwyNn1PPxylotoJVXYQ0X1wMUMOcZ/2V1HA0uAyIwXA70cBdXyd1FLjMGg8udJb4HpXNDEtgnpP/Dfw7q1ni27A/Lg7xBsLh5L4gbzZkj20/LE5V7vxT98EtZ8NIpVEG6vsC0V1rH46daY8jCl1rxwgYxGFXZJ8DkEMjcu3u+/EamGK3X5A6/0=" class="btn-booking" target="_blank">Mimosas Nail Bar
 9695 Red Stone Drive, Indian Land, SC, 29707</a>
-            </div>
+            </div><br>
         </div>
     </div>
 </section>
