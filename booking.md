@@ -20,5 +20,94 @@ layout: default
         </div>
     </div>
 </section>
+<style>
+.home__main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
 
+#imageToggle {
+  width: 100%;
+}
 
+.home__image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  padding: 40px 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3); /* fallback if image fails */
+}
+
+.home__image h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.home__buttons-1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.btn-booking {
+  display: inline-block;
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+.btn-booking:hover {
+  background-color: #e754a8;
+}
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  .home__image h2 {
+    font-size: 20px;
+  }
+
+  .btn-booking {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .home__image {
+    padding: 30px;
+  }
+
+  .home__image h2 {
+    font-size: 22px;
+  }
+
+  .btn-booking {
+    font-size: 15px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 1025px) {
+  .home__image {
+    padding: 60px;
+  }
+
+  .home__image h2 {
+    font-size: 26px;
+  }
+
+  .btn-booking {
+    font-size: 18px;
+  }
+}
+</style>
