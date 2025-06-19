@@ -22,6 +22,6 @@ layout: default
 </section>
 <style>@media only screen and (max-width: 600px) {
     .home__main .home__image {
-        height: 220px;
+        height: 100%;
     }
 </style>
