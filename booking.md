@@ -12,7 +12,7 @@ layout: default
             <div style="text-align: center; class="home__buttons">
     <a href="https://www.vagaro.com/us03/Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVOR75EEdtR28HhXxtFoopeOzOOaZpuDCNLRTN/N/p51HPqoduDP16s8xwRbG6geTsWMGgDIkFvfe3iPDP9tAwmn5a5l1QzebGEgcPKCgJx78gj3MZtMJoQjSHo0UPKUMqY59RWY1zHeimCVRydUgaVRP++ZnMV+CEiUY2Y/WiX/H88n1qKzEr51JvwefceEHdvflmmGsP0Rx6FR+XgrX9kRs67/m2dW9VzNqoVsaLHuorDhBP8hPekyYFMkus2FJDDJI6zWbwRHDM3JvfB2L4XxlEvIx/dkhewQK/twUmvoEUM90PBpklfjU98rs4Qq1yZiLxxHUGQvFImwhTeHLw9O+dzKNzEA5o/w+HKP7nMH8L9aAG4iQN23ancaJJxQb+jRmDvh3GWahzew3WFZ4c5j3iYH/H55ACJB/n2fiqxXcKZGEQ2+TOuF+JaIp0p03c5cwO1Z5ciJIJidBlq9+GvNWwn2dIZDi3bRdoer3GQMXEgMD0jSmBF+SEPhEsNu6j+18Ok3wlMYktgJ1L3mKvegrR/HuJlgEaTZpHI/++KK4VZ1eGgDOl9SIvdI7bTt8CItjK2wQJo+VI8nzYoQLudCwhUAM7iTaXNGC+WK3XHNs35c9UpUk4xUQ7Bi5m7qZ6pKMgkYr7RgGgegWIU40tq20jUFLVJrhf8ok2as9lUf2wTUKf8U/wfve4A8FGsDPa80nkt6FPgURWM2JCcv4cOA=" class="btn-booking" target="_blank">Mimosas Nail Bar- Metropolitan
 1111 Metropolitan Avenue, Suite 100, Charlotte, NC, 28204</a></div><br>
-                        <h2 style="text-align: center; font-weight: bold; color: black;">  Book Here </h2>
+                        <h2 style="text-align: center; font-weight: bold; color: black;">  Book Here 1 </h2>
            <div  style="text-align: center;class="home__buttons">
     <a href="https://mimosasnailbar3715.simplepos.us/" class="btn-booking" target="_blank">Mimosas Nail Bar
 9695 Red Stone Drive, Indian Land, SC, 29707</a>
